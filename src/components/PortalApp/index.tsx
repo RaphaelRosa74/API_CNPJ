@@ -181,7 +181,7 @@ export function PortalApp() {
             Inscrição Estadual
           </S.MenuButton>
           <S.MenuButton $active={tela === "simples"} onClick={() => setTela("simples")}>
-            Simples Nacional (tentar por API)
+            Simples Nacional
           </S.MenuButton>
         </S.Menu>
       </S.Sidebar>

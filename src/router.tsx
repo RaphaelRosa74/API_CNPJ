@@ -8,7 +8,7 @@ const queryClient = new QueryClient();
 
 export const router = createRouter({
   routeTree,
-
+  basepath: "/API_CNPJ/",
   context: {
     queryClient,
   },

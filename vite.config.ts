@@ -5,7 +5,7 @@ import path from "path";
 
 export default defineConfig({
   plugins: [tanstackRouter(), react()],
-  base: "/",
+  base: "/API_CNPJ/",
 
   resolve: {
     alias: {
