@@ -2,7 +2,6 @@ import { useEffect, useState } from "react";
 import { UF_URLS } from "@/utils/constants";
 import { isValidCnpj } from "@/utils/validations";
 import { maskCnpj } from "@/utils/mask";
-import fotoLogo from "@/assets/agenor.jpeg";
 import Modal from "../Modal";
 import Button from "../Button";
 import * as S from "./styles";
